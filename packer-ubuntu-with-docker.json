@@ -13,8 +13,8 @@
     "subscription_id": "{{user `subscription_id`}}",
     "tenant_id": "{{user `tenant_id`}}",
 
-    "resource_group_name": "aztestrg",
-    "storage_account": "aztestso",
+    "resource_group_name": "azswarmrg",
+    "storage_account": "azswarmsa",
 
     "capture_container_name": "images",
     "capture_name_prefix": "packer",
