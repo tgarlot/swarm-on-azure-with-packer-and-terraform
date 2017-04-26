@@ -23,9 +23,9 @@
     "image_publisher": "Canonical",
     "image_offer": "UbuntuServer",
     "image_sku": "16.04.0-LTS",
-    "location": "westeurope",
-
+    "location": "westeurope"
   }],
+
   "provisioners": [{
     "type": "shell",
     "inline": [
@@ -37,4 +37,5 @@
       "sudo apt-get install -y docker-ce"
     ]
   }]
+
 }
